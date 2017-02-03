@@ -1,0 +1,23 @@
+Java HotSpot(TM) 64-Bit Server VM (25.121-b13) for windows-amd64 JRE (1.8.0_121-b13), built on Dec 12 2016 18:21:36 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16711944k(12252500k free), swap 33946312k(26514536k free)
+CommandLine flags: -XX:InitialHeapSize=1048576 -XX:MaxHeapSize=2097152 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+PrintHeapAtGC -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+{Heap before GC invocations=1 (full 0):
+ PSYoungGen      total 1024K, used 508K [0x00000000ffe80000, 0x0000000100000000, 0x0000000100000000)
+  eden space 512K, 99% used [0x00000000ffe80000,0x00000000ffeff328,0x00000000fff00000)
+  from space 512K, 0% used [0x00000000fff80000,0x00000000fff80000,0x0000000100000000)
+  to   space 512K, 0% used [0x00000000fff00000,0x00000000fff00000,0x00000000fff80000)
+ ParOldGen       total 512K, used 0K [0x00000000ffe00000, 0x00000000ffe80000, 0x00000000ffe80000)
+  object space 512K, 0% used [0x00000000ffe00000,0x00000000ffe00000,0x00000000ffe80000)
+ Metaspace       used 1880K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 212K, capacity 384K, committed 384K, reserved 1048576K
+0.046: [GC (Allocation Failure)  508K->504K(1536K), 0.0006821 secs]
+Heap after GC invocations=1 (full 0):
+ PSYoungGen      total 1024K, used 504K [0x00000000ffe80000, 0x0000000100000000, 0x0000000100000000)
+  eden space 512K, 0% used [0x00000000ffe80000,0x00000000ffe80000,0x00000000fff00000)
+  from space 512K, 98% used [0x00000000fff00000,0x00000000fff7e030,0x00000000fff80000)
+  to   space 512K, 0% used [0x00000000fff80000,0x00000000fff80000,0x0000000100000000)
+ ParOldGen       total 512K, used 0K [0x00000000ffe00000, 0x00000000ffe80000, 0x00000000ffe80000)
+  object space 512K, 0% used [0x00000000ffe00000,0x00000000ffe00000,0x00000000ffe80000)
+ Metaspace       used 1880K, capacity 4480K, committed 4480K, reserved 1056768K
+  class space    used 212K, capacity 384K, committed 384K, reserved 1048576K
+}
